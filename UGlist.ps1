@@ -1,4 +1,3 @@
-#Need to install "Install-Module AzureAD" in powershell to run the code
 Connect-AzureAD 
 
 $PathCsv = "D:\UserList.csv"
