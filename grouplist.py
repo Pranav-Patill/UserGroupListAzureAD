@@ -1,3 +1,4 @@
+#Need to install "Install-Module AzureAD" in powershell to run the code
 import subprocess, sys , os
 
 if os.path.isfile("D:\\UserList.csv"):
