@@ -1,0 +1,1 @@
+Import-Csv -Path 'D:\Project_automation\UserGroupListOfApplication_Azure\AppRoleNameList.csv' | Export-Excel -Path 'D:\Project_automation\UserGroupListOfApplication_Azure\User&GroupList.xlsx' -WorkSheetname 'AppList'
