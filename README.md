@@ -14,11 +14,13 @@ Installation required:
 To Do 
 1) Before execution of code:
     -	Save all files in a directory and Copy the path.
+    -   Open **AZApps_User&Group_List.py** python file
     -	Paste the copied Path in _**Path**_ variable.
     -	Edit the Path by replacing “\” with “\\\”.
         -  Eg D:\Projects -> D:\\\Projects  
     -	Enter the Application name or a Keyword of applications you want to search in _**Application_name**_ variable .
     -	Enter the name of Excel Report File that you want to generate it with in _**Report_fileName**_ variable.
+    -   Run the python file
 2) While execution of code:
     -	It will ask for sign in credential and authentication to login to your Azure Account. (If failed in authentication with fingerprint then please try it with OTP Code).
 3) After code executed: (We need to split column A of “AppList” Sheet as it gets the Data for final report)
